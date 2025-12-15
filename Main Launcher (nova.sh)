@@ -1,0 +1,15 @@
+#!/bin/bash
+
+source ui/banner.sh
+source ui/menu.sh
+
+if [ "$choice" = "1" ]; then
+  source core/system.sh
+elif [ "$choice" = "2" ]; then
+  ifconfig 2>/dev/null || ip a
+elif [ "$choice" = "3" ]; then
+  echo "Goodbye Hacker 😎"
+  exit
+else
+  echo "Invalid option"
+fi
