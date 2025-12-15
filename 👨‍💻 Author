@@ -1,0 +1,16 @@
+Nova Developments
+
+⚠️ Educational purpose only
+
+
+---
+
+## 🚀 Push to GitHub (FINAL)
+
+```bash
+git init
+git add .
+git commit -m "NOVA Termux Best UI Project"
+git branch -M main
+git remote add origin https://github.com/nova@123/nova.git
+git push -u origin main
