@@ -1,0 +1,17 @@
+#!/bin/bash
+clear
+echo "==============================="
+echo "   NOVA - BEST UI TOOL"
+echo "==============================="
+echo
+echo "1) Start Tool"
+echo "2) Exit"
+read -p "Choose option: " opt
+
+if [ "$opt" = "1" ]; then
+  echo "Launching Nova..."
+elif [ "$opt" = "2" ]; then
+  exit
+else
+  echo "Invalid option"
+fi
