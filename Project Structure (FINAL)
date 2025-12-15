@@ -1,0 +1,9 @@
+nova/
+├── install.sh
+├── nova.sh
+├── ui/
+│   ├── banner.sh
+│   └── menu.sh
+├── core/
+│   └── system.sh
+└── README.md
